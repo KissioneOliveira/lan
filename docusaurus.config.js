@@ -32,6 +32,32 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+      presets: [
+      [
+        '@docusaurus/preset-classic',
+        {
+          // ...
+          routes: [
+            // ...
+            {
+              path: '/zoan',
+              component: '@site/src/pages/zoan',
+            },
+            {
+              path: '/logia',
+              component: '@site/src/pages/logia',
+            },
+            {
+              path: '/paramecia',
+              component: '@site/src/pages/paramecia',
+            },
+          ],
+        },
+      ],
+    ],
+  
+  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -50,10 +76,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Monkey d. Luffy',
             position: 'right',
           },
+
           {
           to: '/zoro', 
           label: 'Roronoa Zoro', 
           position: 'right'},
+
           {
             to: '/nami',
             label: 'Nami',
@@ -61,6 +89,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
         ],
       },
+      
       footer: {
         style: 'dark',
         links: [

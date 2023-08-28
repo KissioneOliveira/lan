@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import '../css/custom.css';
+import { Link } from '@docusaurus/router';
 
 function OnePiecePage() {
   return (
@@ -25,6 +26,13 @@ function OnePiecePage() {
           Aventure-se no mundo de "One Piece" e junte-se a Luffy e seus amigos em uma
           jornada cheia de ação, risadas e emoções!
         </p>
+
+        <div className="button-container">
+          <Link className="fruta-button" to="/zoan">Akuma no Mi Zoan</Link>
+          <Link className="fruta-button" to="/logia">Akuma no Mi Logia</Link>
+          <Link className="fruta-button" to="/paramecia">Akuma no Mi Paramecia</Link>
+        </div>
+
       </main>
     </Layout>
   );

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Layout from '@theme/Layout';
-import '../css/story.css';
+import '../css/custom.css';
 
 function ZoroPage() {
   return (

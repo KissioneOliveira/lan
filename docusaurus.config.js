@@ -32,7 +32,31 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
-      presets: [
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        
+        routes: [
+          
+          {
+            path: '/luffy',
+            component: '@site/src/pages/Luffy',
+          },
+          {
+            path: '/zoro',
+            component: '@site/src/pages/Zoro',
+          },
+          {
+            path: '/nami',
+            component: '@site/src/pages/Nami',
+          },
+        ],
+      },
+    ],
+  ],
+
+  presets: [
       [
         '@docusaurus/preset-classic',
         {
@@ -55,7 +79,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
       ],
     ],
-  
+
+    presets: [
+      [
+        '@docusaurus/preset-classic',
+        {
+          
+          routes: [
+            
+            {
+              path: '/blog/personagens-marcantes',
+              component: '@site/src/pages/blog/personagens-marcantes',
+            },
+          ],
+        },
+      ],
+    ],
+   
   
 
   themeConfig:

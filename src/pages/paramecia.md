@@ -2,6 +2,8 @@
 title: Akuma no Mi - Paramecia
 ---
 
+
+
 # Akuma no Mi - Paramecia
 
 As Akuma no Mi são frutas místicas que conferem poderes especiais aos seus consumidores. O tipo Paramecia é um dos três principais tipos de Akuma no Mi, ao lado dos tipos Zoan e Logia.

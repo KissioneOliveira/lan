@@ -1,6 +1,3 @@
-/* src/css/custom.css */
-
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,21 +6,21 @@ body {
   
 }
 
-body.luffy {
+.luffy {
   background-image: url('/img/luffy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-body.zoro {
+.zoro {
   background-image: url('/img/zoro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-body.nami {
+.nami {
   background-image: url('/img/nami.jpg');
   background-size: cover;
   background-repeat: no-repeat;

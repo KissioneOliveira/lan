@@ -8,6 +8,8 @@ function LuffyPage() {
     <Layout>
     <div className='luffy'>
       <header>
+       
+         
         <h1>Monkey D. Luffy</h1>
       </header>
     
